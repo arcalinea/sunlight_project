@@ -1,0 +1,1 @@
+User.create! [{name: "Jane", email: "jane@gmail.com", hashed_password: "jane"}]

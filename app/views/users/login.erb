@@ -1,0 +1,16 @@
+<h3>Login</h3>
+
+<form method='post' action='/login'>
+
+	<label for="email">Email</label>
+		<input type='text' name='email'>
+
+	<label for="password">Password</label>
+		<input type='password' name='password'>
+
+	<input type='submit' value='Login' class='button'>
+</form>
+
+<% if @error %>
+	<p> <%= @error %> </p>
+<% end %>
